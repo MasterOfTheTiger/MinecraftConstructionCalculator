@@ -55,7 +55,7 @@ int calculator() {
     } else {
       slanted = 1;
     }
-    if (slanted = 2) {
+    if (slanted == 2) {
       cout << "You want a slanted roof. Are you sure? [y/n] ";
     } else {
       cout << "You don't want a slanted roof. Are you sure? [y/n] ";
