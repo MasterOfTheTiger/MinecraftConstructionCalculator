@@ -9,7 +9,7 @@ int calculator();
 int searchCommands(string entered);
 int main()
 {
-    cout << "This is the Minecraft Construction Calculator. Version Alpha 0.1.\n If you are using this then you are using then you ought to know that this is still being made and might have many bugs.\n I will update it a lot in the coming days/weeks/months.\n If you have any questions, comments, or bug reports please email jallestad12@gmail.com. \n\n Thank you for trying this program.\n\n\n";
+    cout << "This is the Minecraft Construction Calculator. Version Alpha 0.1.\n If you are using this then you are using then you ought to know that this is still being made and might have many bugs.\n I will update it a lot in the coming days/weeks/months.\n\n Thank you for trying this program.\n\n\n";
     cout << "Enter 'C' to continue.\n\n";
     string answer;
     cin >> answer;
