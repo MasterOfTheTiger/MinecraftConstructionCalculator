@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int height, wall, widthf, widths, roof, floor, slanted, total;
+int height, wall, widthf, widths, roof, tfloor, slanted, total;
 string answer;
 void admin();
 int calculator();
@@ -64,10 +64,10 @@ int calculator() {
     cout << "\n\n";
   } while ( !(answer == "y"));
   roof = (widthf - 2) * (widths - 2) * slanted;
-  floor = (widthf - 2) * (widths - 2);
+  tfloor = (widthf - 2) * (widths - 2);
   wall = (widthf * height * 2) + (widths - 2 * height * 2);
-  cout << "The amount you need for your roof and floor is " << roof + floor << " blocks. \n The amount you need for your walls is " << wall << " blocks.\n";
-  total = roof + wall + floor;
+  cout << "The amount you need for your roof and floor is " << roof + tfloor << " blocks. \n The amount you need for your walls is " << wall << " blocks.\n";
+  total = roof + wall + tfloor;
   cout << "The total amount you need for your structure is " << total << " blocks.\n\n\n\n";
   return total;
 }
